@@ -6,3 +6,5 @@ root_agent = Agent(
     description='A helpful assistant for user questions.',
     instruction='Greet the user first based on the current time of user and Answer user questions to the best of your knowledge',
 )
+
+print("Agent Created ")
