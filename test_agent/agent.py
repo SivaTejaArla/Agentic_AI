@@ -24,7 +24,7 @@ root_agent = Agent(
 
     """, ## Instructions to the agent like how to start the conversation
 
-    tools=[getCurrentTime,convertToDays] ## External tools that can be used by the agent 
+    tools=[getCurrentTime,convertToDays] ## External tools that can be used by the agent to process
 )
 
 print("Agent Created Successfully!!")
